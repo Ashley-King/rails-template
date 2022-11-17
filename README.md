@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Added vite and tailwind css using [this](https://dev.to/davidteren/ruby-on-rails-7-high-performance-frontend-development-with-esbuild-rollup-vite-2onj) article.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* entrypoint must end in **__.scss__** and vite stylesheet tag must explicitly use **_application.scss_**
+* scss partials are in stylesheets directory
