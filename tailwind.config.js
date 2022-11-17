@@ -17,6 +17,10 @@ module.exports = {
       'mono': ["Consolas", "Menlo", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace"]
     },
     extend: {
+      fontFamily:{
+        'poppins': ['Poppins', ...defaultTheme.fontFamily.sans],
+        'openSans': ['Open Sans', ...defaultTheme.fontFamily.sans]
+      }
     },
   },
   corePlugins: {
