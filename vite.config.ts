@@ -2,6 +2,7 @@ import {defineConfig} from 'vite'
 import FullReload from "vite-plugin-full-reload"
 import RubyPlugin from 'vite-plugin-ruby'
 import StimulusHMR from 'vite-plugin-stimulus-hmr'
+import {resolve} from 'path'
 
 export default defineConfig({
       clearScreen: false,
@@ -10,6 +11,11 @@ export default defineConfig({
           StimulusHMR(), 
           FullReload(["config/routes.rb", "app/views/**/*"], {delay: 300}),
       ],
+      resolve:{
+            alias: {
+                    "@assets": resolve(__dirname, "app/assets"),
+            }
+      }
 
     }
 )

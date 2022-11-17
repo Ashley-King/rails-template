@@ -1,11 +1,15 @@
+// adding custom fonts vite in rails using these posts:
+// https://github.com/ElMassimo/vite_ruby/discussions/144
+// https://vite-ruby.netlify.app/config/#watchadditionalpaths
+
 @layer base {
   @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-ExtraBold.eot');
-    src: url('Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-ExtraBold.woff2') format('woff2'),
-        url('Poppins-ExtraBold.woff') format('woff'),
-        url('Poppins-ExtraBold.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-ExtraBold.eot');
+    src: url('@assets/fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('@assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -13,11 +17,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Bold.eot');
-    src: url('Poppins-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-Bold.woff2') format('woff2'),
-        url('Poppins-Bold.woff') format('woff'),
-        url('Poppins-Bold.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-Bold.eot');
+    src: url('@assets/fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-Bold.woff') format('woff'),
+        url('@assets/fonts/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -25,11 +29,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Black.eot');
-    src: url('Poppins-Black.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-Black.woff2') format('woff2'),
-        url('Poppins-Black.woff') format('woff'),
-        url('Poppins-Black.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-Black.eot');
+    src: url('@assets/fonts/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-Black.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-Black.woff') format('woff'),
+        url('@assets/fonts/Poppins-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -37,11 +41,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-SemiBold.eot');
-    src: url('Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-SemiBold.woff2') format('woff2'),
-        url('Poppins-SemiBold.woff') format('woff'),
-        url('Poppins-SemiBold.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-SemiBold.eot');
+    src: url('@assets/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-SemiBold.woff') format('woff'),
+        url('@assets/fonts/Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -49,11 +53,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Regular.eot');
-    src: url('Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-Regular.woff2') format('woff2'),
-        url('Poppins-Regular.woff') format('woff'),
-        url('Poppins-Regular.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-Regular.eot');
+    src: url('@assets/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-Regular.woff') format('woff'),
+        url('@assets/fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -61,11 +65,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Medium.eot');
-    src: url('Poppins-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-Medium.woff2') format('woff2'),
-        url('Poppins-Medium.woff') format('woff'),
-        url('Poppins-Medium.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-Medium.eot');
+    src: url('@assets/fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-Medium.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-Medium.woff') format('woff'),
+        url('@assets/fonts/Poppins-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -73,11 +77,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Light.eot');
-    src: url('Poppins-Light.eot?#iefix') format('embedded-opentype'),
-        url('Poppins-Light.woff2') format('woff2'),
-        url('Poppins-Light.woff') format('woff'),
-        url('Poppins-Light.ttf') format('truetype');
+    src: url('@assets/fonts/Poppins-Light.eot');
+    src: url('@assets/fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/Poppins-Light.woff2') format('woff2'),
+        url('@assets/fonts/Poppins-Light.woff') format('woff'),
+        url('@assets/fonts/Poppins-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -85,11 +89,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Medium.eot');
-    src: url('OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Medium.woff2') format('woff2'),
-        url('OpenSans-Medium.woff') format('woff'),
-        url('OpenSans-Medium.ttf') format('truetype');
+    src: url('@assets/fonts/OpenSans-Medium.eot');
+    src: url('@assets/fonts/OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('@assets/fonts/OpenSans-Medium.woff') format('woff'),
+        url('@assets/fonts/OpenSans-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -97,11 +101,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Bold.eot');
-    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Bold.woff2') format('woff2'),
-        url('OpenSans-Bold.woff') format('woff'),
-        url('OpenSans-Bold.ttf') format('truetype');
+    src: url('@assets/fonts/OpenSans-Bold.eot');
+    src: url('@assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('@assets/fonts/OpenSans-Bold.woff') format('woff'),
+        url('@assets/fonts/OpenSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -109,11 +113,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-ExtraBold.eot');
-    src: url('OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-ExtraBold.woff2') format('woff2'),
-        url('OpenSans-ExtraBold.woff') format('woff'),
-        url('OpenSans-ExtraBold.ttf') format('truetype');
+    src: url('@assets/fonts/OpenSans-ExtraBold.eot');
+    src: url('@assets/fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('@assets/fonts/OpenSans-ExtraBold.woff') format('woff'),
+        url('@assets/fonts/OpenSans-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -121,11 +125,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Light.eot');
-    src: url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Light.woff2') format('woff2'),
-        url('OpenSans-Light.woff') format('woff'),
-        url('OpenSans-Light.ttf') format('truetype');
+    src: url('@assets/fonts/OpenSans-Light.eot');
+    src: url('@assets/fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/OpenSans-Light.woff2') format('woff2'),
+        url('@assets/fonts/OpenSans-Light.woff') format('woff'),
+        url('@assets/fonts/OpenSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -133,11 +137,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-SemiBold.eot');
-    src: url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-SemiBold.woff2') format('woff2'),
-        url('OpenSans-SemiBold.woff') format('woff'),
-        url('OpenSans-SemiBold.ttf') format('truetype');
+    src: url('@assets/fonts/OpenSans-SemiBold.eot');
+    src: url('@assets/fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('@assets/fonts/OpenSans-SemiBold.woff') format('woff'),
+        url('@assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -145,11 +149,11 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Regular.eot');
-    src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Regular.woff2') format('woff2'),
-        url('OpenSans-Regular.woff') format('woff'),
-        url('OpenSans-Regular.ttf') format('truetype');
+    src: url('@assets/fonts/OpenSans-Regular.eot');
+    src: url('@assets/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('@assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('@assets/fonts/OpenSans-Regular.woff') format('woff'),
+        url('@assets/fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
