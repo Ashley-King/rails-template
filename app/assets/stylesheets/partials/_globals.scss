@@ -1,0 +1,15 @@
+@layer base{
+  h1{
+    @apply text-3xl font-poppins;
+
+  }
+  h2{
+    @apply text-2xl font-poppins;
+  }
+  h3{
+    @apply text-xl font-poppins;
+  }
+  body{
+    @apply text-lg font-openSans font-normal;
+  }
+}
