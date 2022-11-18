@@ -35,3 +35,16 @@ trix-editor{
   height: 20rem;
   overflow: scroll;
 }
+
+@media(max-width: 1023px){
+  trix-toolbar .trix-button-row{
+    flex-wrap: wrap;
+    
+  }
+}
+
+@media(max-width: 370px){
+  trix-toolbar .trix-button-row{
+    justify-content: flex-start;
+  }
+}
