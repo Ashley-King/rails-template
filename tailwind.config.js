@@ -16,6 +16,18 @@ module.exports = {
         "Helvetica Neue", "sans-serif"],
       'mono': ["Consolas", "Menlo", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace"]
     },
+    container:{
+      center: true,
+      padding: {
+        DEFAULT: '1.25rem',
+        sm: '2rem',
+        lg: '2.5rem',
+
+      },
+      screens: {
+        '2xl': '1440px'
+      }
+    },
     extend: {
       fontFamily:{
         'poppins': ['Poppins', ...defaultTheme.fontFamily.sans],
