@@ -39,6 +39,9 @@ module.exports = {
       fontFamily:{
         'poppins': ['Poppins', ...defaultTheme.fontFamily.sans],
         'openSans': ['Open Sans', ...defaultTheme.fontFamily.sans]
+      }, 
+      maxWidth:{
+        '8xl': '90rem',
       }
     },
   },
