@@ -1,3 +1,8 @@
+/*
+global element styles
+*/
+
+
 @layer base{
   h1{
     @apply text-4xl sm:text-5xl lg:text-6xl font-poppins;
@@ -13,4 +18,12 @@
     @apply text-lg font-openSans font-normal;
   }
  
+}
+
+/*
+global classes
+*/
+
+.container-padding{
+  @apply px-6 sm:px-6 md:px-8 lg:px-8 xl:px-8 2xl:px-8;
 }

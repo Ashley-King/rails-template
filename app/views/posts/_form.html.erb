@@ -25,6 +25,18 @@
     <%= form.label :published_on, style: "display: block" %>
     <%= form.datetime_field :published_on %>
   </div>
+  <div>
+    <%= form.label :body %>
+    <%= form.rich_text_area :body %>
+  </div>
+    <div>
+    <%= form.label :author_bio %>
+    <%= form.rich_text_area :author_bio %>
+  </div>
+  <div>
+    <%= form.label :references_section %>
+    <%= form.rich_text_area :references_section %>
+  </div>
 
   <div>
     <%= form.submit %>
