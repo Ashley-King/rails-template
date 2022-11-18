@@ -18,15 +18,22 @@ module.exports = {
     },
     container:{
       center: true,
-      padding: {
-        DEFAULT: '1.25rem',
-        sm: '2rem',
-        lg: '2.5rem',
-
-      },
       screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
         '2xl': '1440px'
-      }
+      },
+      padding: {
+        DEFAULT: '1.5rem',
+        sm: '1.5rem',
+        md: '2rem',
+        lg: '2rem',
+        xl: '2rem',
+        '2xl': '2rem',
+      },
+      
     },
     extend: {
       fontFamily:{
