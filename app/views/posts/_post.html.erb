@@ -1,29 +1,24 @@
 <div id="<%= dom_id post %>">
-  <p>
-    <strong>Title:</strong>
+  <h1 class="font-bold">
     <%= post.title %>
-  </p>
+  </h1>
 
-  <p>
-    <strong>Author email:</strong>
-    <%= post.author_email %>
-  </p>
+  <div class="meta py-4">
+  <span class="pr-4">By: <%= post.author_email %></span>
+    
+    <span>Published: <%= format_date(post.published_on) %></span>
+  </div>
 
-  <p>
-    <strong>Published on:</strong>
-    <%= post.published_on %>
-  </p>
-   <p>
-    <strong>Body:</strong>
+ 
+   <div class="post-content mt-10">
     <%= post.body %>
-  </p>
-   <p>
-    <strong>Author:</strong>
+  </div>
+   <div class="author-bio p-4 bg-slate-100 my-10 rounded-md">
     <%= post.author_bio %>
-  </p>
-   <p>
-    <strong>References:</strong>
+  </div>
+   <div class="post-references p-4 bg-indigo-100 mb-10 rounded-md">
+    
     <%= post.references_section %>
-  </p>
+  </div>
 
 </div>
