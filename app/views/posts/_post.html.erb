@@ -1,4 +1,8 @@
 <div id="<%= dom_id post %>">
+  <div class="featured-image">
+ 
+  </div>
+
   <h1 class="font-bold">
     <%= post.title %>
   </h1>
@@ -6,7 +10,11 @@
   <div class="meta py-4">
   <span class="pr-4">By: <%= post.author_email %></span>
     
-    <span>Published: <%= format_date(post.published_on) %></span>
+    <%
+=begin%>
+ <span>Published: <%= format_date(post.published_on) %></span> 
+<%
+=end%>
   </div>
 
  

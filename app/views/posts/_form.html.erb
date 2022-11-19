@@ -12,19 +12,22 @@
       </ul>
     </div>
   <% end %>
-
   <div class="form-field">
-    <%= form.label :title, style: "display: block" %>
+    <%= form.label :featured_image %>
+    <%= form.text_field :featured_image %>
+  </div>
+  <div class="form-field">
+    <%= form.label :title %>
     <%= form.text_field :title %>
   </div>
 
   <div class="form-field">
-    <%= form.label :author_email, style: "display: block" %>
+    <%= form.label :author_email %>
     <%= form.text_field :author_email %>
   </div>
 
   <div class="form-field">
-    <%= form.label :published_on, style: "display: block" %>
+    <%= form.label :published_on %>
     <%= form.datetime_field :published_on %>
   </div>
   <div class="form-field">
