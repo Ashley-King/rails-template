@@ -5,7 +5,7 @@ class Post < ApplicationRecord
   include ImageUploader::Attachment(:image)
   
   validate do
-    next unless respond_to?(:featured_image)
+    next unless respond_to?(:image_data)
 
     image_attacher.errors.each do |message|
       record.errors.add(name, *message)
